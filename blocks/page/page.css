@@ -1,8 +1,8 @@
 .page {
-    background-color: #E5E5E5;
-    text-align: center;
+    background: #E5E5E5;
     max-width: 1280px;
     margin: 0;
+    font-family: 'Inter';
 }
 .body {
     max-width: 1280px;
@@ -34,6 +34,7 @@
     font-size: 96px;
     margin: 0;
     font-weight: 600;
+    text-align: center;
 }
 .lead__subtitle {
     width: 640px;
@@ -42,6 +43,7 @@
     line-height: 36px;
     font-size: 30px;
     padding-top: 32px;
+    text-align: center;
 }
 .lead__image {
    width: 984px;
@@ -59,4 +61,36 @@
     margin: 0;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+}
+.intro {
+    width: 690px;
+    height: 429px;
+    padding-top: 114px;
+    margin-left: 148px;
+}
+.intro__list {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 33px;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.intro-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0;
+}
+.intro__text {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.08px;
+}
+.photo-grid {
+    display: grid;
 }
