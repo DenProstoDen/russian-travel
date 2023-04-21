@@ -1,5 +1,5 @@
 .page {
-    background: #E5E5E5;
+    background: #2A2C2F;
     max-width: 1280px;
     margin: 0;
     font-family: 'Inter';
@@ -20,6 +20,7 @@
     margin: 0;
     display: flex;
     padding-top: 28px;
+    text-decoration: underline;
 }
 .lead {
     display: flex;
@@ -35,6 +36,7 @@
     margin: 0;
     font-weight: 600;
     text-align: center;
+    color: white;
 }
 .lead__subtitle {
     width: 640px;
@@ -44,6 +46,7 @@
     font-size: 30px;
     padding-top: 32px;
     text-align: center;
+    color: white;
 }
 .lead__image {
    width: 984px;
@@ -60,6 +63,7 @@
     margin: 0;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    color: white;
 }
 .intro {
     width: 690px;
@@ -75,6 +79,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
+    color: white;
 }
 .intro-title {
     font-style: normal;
@@ -82,6 +87,7 @@
     font-size: 54px;
     line-height: 58px;
     margin: 0;
+    color: white;
 }
 .intro__text {
     margin: 0;
@@ -89,6 +95,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26.08px;
+    color: white;
 }
 .photo-grid {
     display: grid;
@@ -124,6 +131,7 @@
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 1;
+    color: white;
 }
 .place__paragraph {
     width: 484px;
@@ -134,15 +142,19 @@
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 2;
-    gap: 26px;  
+    gap: 26px;
+    color: white;
 }
 .place__website__url-heading {
     margin: 0;
+    color: white;
 }
 .place__website__link {
     margin: 0;
     width: 456px;
     height: 22px;
+    text-decoration: none;
+    color: white;
 }
 .place__image {
     grid-row-start: 2;
@@ -193,9 +205,11 @@
     width: 360px;
     height: 66px;
     margin: 0;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    padding-top: 32px;
+    font-family: "Inter";
 }
 .footer {
     width: 1184px;
@@ -207,7 +221,14 @@
     justify-content: space-between;
     padding-top: 92px ;
 }
-.footer__link {
+.footer__links {
     gap: 18px;
     display: flex;
+}
+.footer__link {
+    text-decoration: none;
+    color: white;
+}
+.footer__copyright {
+    color: white;
 }
