@@ -1,0 +1,22 @@
+.intro__list {
+    list-style-type: none;
+    margin: auto;
+    padding-top: 34px;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .intro__list {
+        list-style-type: none;
+        margin: auto;
+        padding-top: 34px;
+        padding-left: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: white;
+    }
+}
