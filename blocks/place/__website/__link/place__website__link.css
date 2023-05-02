@@ -1,0 +1,14 @@
+.place__website__link {
+    margin: 0;
+    width: 100vw;
+    text-decoration: underline;
+    color: white;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .place__website__link {
+        margin: 0;
+        width: 100vw;
+        text-decoration: underline;
+        color: white;
+    }
+}

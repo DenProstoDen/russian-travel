@@ -1,0 +1,15 @@
+.place__website {
+    Width: 100vw;
+    gap: 12px;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .place__website {
+        display: grid;
+        Width: 100vw;
+        gap: 12px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+}
