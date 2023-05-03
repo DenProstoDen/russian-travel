@@ -12,3 +12,11 @@
         width: 100vw;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        width: 100vw;
+    }
+}

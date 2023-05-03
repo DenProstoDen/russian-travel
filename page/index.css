@@ -1,5 +1,20 @@
 @import url(../blocks/page/page.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/index.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/cover/index.css);
+
+@import url(../blocks/footer/index.css);
+
+@import url(../blocks/intro/index.css);
+
+@import url(../blocks/lead/index.css);
+
+@import url(../blocks/photo-grid/index.css);
+
+@import url(../blocks/place/index.css);
+
+@import url(../blocks/places/places.css);
