@@ -25,7 +25,22 @@
         display: grid;
         width: auto;
         font-size: 4rem;
-        line-height: 3rem;
+        line-height: 4.1rem;
+        font-weight: 900;
+        color: white;
+        block-size: min-content;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .place__title {
+        display: grid;
+        width: auto;
+        font-size: 4rem;
+        line-height: 4.1rem;
         font-weight: 900;
         color: white;
         block-size: min-content;

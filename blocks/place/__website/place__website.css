@@ -24,3 +24,14 @@
         grid-column-end: 2;
     }
 }
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .place__website {
+        display: grid;
+        Width: 100vw;
+        gap: 12px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+}
