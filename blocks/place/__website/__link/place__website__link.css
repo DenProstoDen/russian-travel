@@ -4,6 +4,9 @@
     text-decoration: underline;
     color: white;
 }
+.place__website__link:hover {
+    opacity: 0.8;
+}
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .place__website__link {
         margin: 0;
