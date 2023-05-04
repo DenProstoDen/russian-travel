@@ -36,3 +36,17 @@
         margin-right: auto;
     }
 }
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .lead__title {  
+        width: 60%;
+        height: auto;
+        line-height: 1.2;
+        font-size: 5rem;
+        margin: 0;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

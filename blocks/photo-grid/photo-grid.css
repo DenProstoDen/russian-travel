@@ -19,3 +19,11 @@
         gap: 0.9rem 0.9rem;
     }
 }
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem 1rem;
+    }
+}

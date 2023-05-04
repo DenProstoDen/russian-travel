@@ -19,3 +19,11 @@
         inline-size: auto;
     }
 }
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .intro {
+        width: 100vw;
+        padding-top: 64px;
+        padding-left: 10rem;
+        inline-size: auto;
+    }
+}
