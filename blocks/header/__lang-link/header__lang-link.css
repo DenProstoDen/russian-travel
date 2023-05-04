@@ -19,14 +19,14 @@
         padding-right: 10px;
     }
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
-    .header__lang-link {
-            width: 1.8rem;
-            margin: 0;
-            display: flex;
-            padding-top: 28px;
-            text-decoration: underline;
-            color: white;
-            padding-right: 10px;
-        }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.header__lang-link {
+        width: 1.8rem;
+        margin: 0;
+        display: flex;
+        padding-top: 28px;
+        text-decoration: underline;
+        color: white;
+        padding-right: 10px;
     }
+}

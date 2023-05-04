@@ -22,3 +22,17 @@
         margin-right: auto;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024) {
+    .lead__title {  
+        width: 80%;
+        height: auto;
+        line-height: 1.2;
+        font-size: 5rem;
+        margin: 0;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
