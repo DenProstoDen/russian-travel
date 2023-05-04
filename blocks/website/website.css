@@ -1,9 +1,9 @@
-.place__website {
+.website {
     width: 100vw;
     gap: 12px;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
-    .place__website {
+    .website {
         display: grid;
         width: 100vw;
         gap: 12px;
@@ -14,7 +14,7 @@
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .place__website {
+    .website {
         display: grid;
         width: 100vw;
         gap: 12px;
@@ -25,7 +25,7 @@
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .place__website {
+    .website {
         display: grid;
         width: 100vw;
         gap: 12px;
