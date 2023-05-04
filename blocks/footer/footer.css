@@ -12,7 +12,7 @@
         width: 95%;
         height: min-content;
         display: flex;
-        flex-direction: row;    
+        flex-direction: row;
         margin: auto;
         padding-top: 4.5rem;
         justify-content: space-between;
@@ -24,7 +24,7 @@
         width: 95%;
         margin: auto;
         height: min-content;
-        flex-direction: row;    
+        flex-direction: row;
         padding-top: 4.5rem;
         justify-content: space-between;
     }
@@ -35,7 +35,7 @@
         width: 90%;
         margin: auto;
         height: min-content;
-        flex-direction: row;    
+        flex-direction: row;
         padding-top: 8rem;
         justify-content: space-between;
     }
