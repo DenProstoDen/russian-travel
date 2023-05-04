@@ -13,7 +13,7 @@
         align-items: center;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead {
         display: flex;
         padding-top: 48px;

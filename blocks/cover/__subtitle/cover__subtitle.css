@@ -21,3 +21,15 @@
         padding-top: 16px;
     }
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .cover__subtitle {
+        text-align: center;
+        color: white;
+        width: 23rem;
+        margin: 0;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        padding-top: 2rem;
+    }
+}

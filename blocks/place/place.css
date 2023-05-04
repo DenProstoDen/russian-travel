@@ -7,11 +7,23 @@
 }
 @media screen and (min-width: 321px) and (max-width: 768px){
     .place{
+        width: 95%;
         display: grid;
         margin: auto;
         padding-top: 50px;
         grid-template-columns: repeat(2, minmax(0, auto));
         grid-template-rows: repeat(2, minmax(0, auto));
         grid-gap: 1rem 1rem;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .place{
+        width: 90%;
+        display: grid;
+        margin: auto;
+        padding-top: 5rem;
+        grid-template-columns: repeat(2, minmax(0, auto));
+        grid-template-rows: repeat(2, minmax(0, auto));
+        grid-gap: 2rem 2rem;
     }
 }

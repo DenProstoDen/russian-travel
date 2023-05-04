@@ -10,3 +10,10 @@
         gap: 1rem;
     }
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        gap: 1.1rem;
+    }
+}

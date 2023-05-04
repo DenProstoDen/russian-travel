@@ -9,3 +9,10 @@
         line-height: 0.8rem;
     }
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .footer__copyright {
+        color: white;
+        font-size: 1.3rem;
+        line-height: 0.8rem;
+    }
+}

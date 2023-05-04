@@ -18,3 +18,14 @@
         line-height: 4rem;
     }
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .cover__title {
+        text-align: center;
+        color: white;
+        width: 35rem;
+        margin: 0;
+        font-weight: 900;
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+}

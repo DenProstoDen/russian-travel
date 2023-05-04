@@ -9,11 +9,22 @@
 }
 @media screen and (max-width: 768px) and (min-width: 321px) {
     .footer {
-        width: min-content;
+        width: 95%;
         height: min-content;
         display: flex;
         flex-direction: row;    
-        margin: auto auto;
+        margin: auto;
+        padding-top: 4.5rem;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .footer {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        height: min-content;
+        flex-direction: row;    
         padding-top: 4.5rem;
         justify-content: space-between;
     }
