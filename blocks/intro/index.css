@@ -2,3 +2,4 @@
 @import url(./__list/intro__list.css);
 @import url(./__text/intro__text.css);
 @import url(./intro-title/intro-title.css);
+@import url(./__list/_span-accent/intro__list_span-accent.css);
