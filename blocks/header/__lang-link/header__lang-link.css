@@ -4,7 +4,7 @@
     margin: 0;
     display: flex;
     padding-top: 28px;
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     padding-right: 10px;
 }
@@ -14,7 +14,7 @@
         margin: 0;
         display: flex;
         padding-top: 28px;
-        text-decoration: underline;
+        text-decoration: none;
         color: white;
         padding-right: 10px;
     }
@@ -25,7 +25,7 @@
         margin: 0;
         display: flex;
         padding-top: 28px;
-        text-decoration: underline;
+        text-decoration: none;
         color: white;
         padding-right: 10px;
     }
@@ -36,7 +36,7 @@
         margin: 0;
         display: flex;
         padding-top: 2rem;
-        text-decoration: underline;
+        text-decoration: none;
         color: white;
         gap: 0.8rem;
     }
