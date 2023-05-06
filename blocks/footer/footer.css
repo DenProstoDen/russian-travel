@@ -1,6 +1,6 @@
 .footer {
-    width: 100vw;
-    height: 310px;
+    max-width: 186px;
+    height: max-content;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -9,8 +9,7 @@
 }
 @media screen and (max-width: 768px) and (min-width: 321px) {
     .footer {
-        width: 95%;
-        height: min-content;
+        max-width: 720px;
         display: flex;
         flex-direction: row;
         margin: auto;
@@ -21,9 +20,8 @@
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .footer {
         display: flex;
-        width: 95%;
+        max-width: 928px;
         margin: auto;
-        height: min-content;
         flex-direction: row;
         padding-top: 4.5rem;
         justify-content: space-between;
@@ -32,9 +30,8 @@
 @media screen and (max-width: 1280px) and (min-width: 1025px) {
     .footer {
         display: flex;
-        width: 90%;
+        max-width: 1184px;
         margin: auto;
-        height: min-content;
         flex-direction: row;
         padding-top: 8rem;
         justify-content: space-between;
