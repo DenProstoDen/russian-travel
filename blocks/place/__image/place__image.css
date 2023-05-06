@@ -1,11 +1,11 @@
 .place__image {
     object-fit: cover;
-    width: 100vw;
+    max-width: 320px;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .place__image {
         display: grid;
-        width: 95%;
+        max-width: 340px;
         object-fit: cover;
         grid-row-start: 2;
         grid-row-end: 2;
@@ -16,7 +16,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .place__image {
         display: grid;
-        width: 95%;
+        max-width: 440px;
         object-fit: cover;
         grid-row-start: 2;
         grid-row-end: 2;
@@ -27,7 +27,7 @@
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .place__image {
         display: grid;
-        width: 95%;
+        max-width: 460px;
         object-fit: cover;
         grid-row-start: 2;
         grid-row-end: 2;

@@ -1,5 +1,5 @@
 .intro-title {
-    width: 100vw;
+    max-width: 288px;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -9,7 +9,7 @@
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .intro-title {
-        width: 100vw;
+        max-width: 720px;
         font-style: normal;
         font-weight: 900;
         font-size: 3rem;
@@ -20,7 +20,7 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .intro-title {
-        width: 100vw;
+        max-width: 690px;
         font-style: normal;
         font-weight: 900;
         font-size: 3rem;
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .intro-title {
-        width: 100vw;
+        max-width: 690px;
         font-style: normal;
         font-weight: 900;
         font-size: 3rem;
