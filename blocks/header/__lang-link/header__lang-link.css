@@ -1,12 +1,23 @@
 .header__lang-link {
-    max-width: 1.8rem;
-    height: 1.6rem;
+    width: 1.8rem;
     margin: 0;
     display: flex;
-    padding-top: 28px;
+    padding-top: 2rem;
     text-decoration: none;
     color: white;
-    padding-right: 10px;
+    gap: 0.8rem;
+}
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        max-width: 1.8rem;
+        height: 1.6rem;
+        margin: 0;
+        display: flex;
+        padding-top: 28px;
+        text-decoration: none;
+        color: white;
+        padding-right: 10px;
+    }
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
 .header__lang-link {
@@ -28,16 +39,5 @@
         text-decoration: none;
         color: white;
         padding-right: 10px;
-    }
-}
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .header__lang-link {
-        width: 1.8rem;
-        margin: 0;
-        display: flex;
-        padding-top: 2rem;
-        text-decoration: none;
-        color: white;
-        gap: 0.8rem;
     }
 }

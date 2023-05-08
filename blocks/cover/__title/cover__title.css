@@ -30,7 +30,7 @@
         line-height: 4rem;
     }
 }
-@media screen and (max-width: 1280px) and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
     .cover__title {
         text-align: center;
         color: white;

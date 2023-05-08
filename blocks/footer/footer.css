@@ -39,7 +39,7 @@
         justify-content: space-between;
     }
 }
-@media screen and (max-width: 1280px) and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
     .footer {
         display: flex;
         max-width: 1184px;

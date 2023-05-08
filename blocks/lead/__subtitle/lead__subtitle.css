@@ -31,7 +31,7 @@
         margin: auto auto;
     }
 }
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .lead__subtitle {
         max-width: 640px;
         line-height: 1;
