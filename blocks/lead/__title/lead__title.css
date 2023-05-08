@@ -8,7 +8,27 @@
     text-align: center;
     color: white;
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 310px) {
+    .lead__title {
+        max-width: 170px;
+        height: auto;
+        line-height: 2.75rem;
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 605px) and (min-width: 321px) {
+    .lead__title {
+        max-width: 400px;
+        height: auto;
+        line-height: 2.75rem;
+        font-size: 2.5rem;
+        margin: 0;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+    }
+}
+@media screen and (min-width: 606px) and (max-width: 768px) {
     .lead__title {  
         max-width: 720px;
         height: auto;

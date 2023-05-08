@@ -4,6 +4,7 @@
     flex-direction: column;
     margin: auto;
     padding-top: 50px;
+    gap: 2rem;
 }
 @media screen and (min-width: 321px) and (max-width: 768px){
     .place{

@@ -1,8 +1,9 @@
 .website__link {
     margin: 0;
-    width: 100vw;
+    max-width: 288px;
     text-decoration: underline;
     color: white;
+    word-wrap: break-word;
 }
 .website__link:hover {
     opacity: 0.8;
@@ -10,8 +11,21 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .website__link {
         margin: 0;
-        width: 100vw;
+        max-width: 352px;
         text-decoration: underline;
         color: white;
+        word-wrap: break-word;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .website__link {
+        max-width: 456px;
+        word-wrap: break-word;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .website__link {
+        max-width: 456px;
+        word-wrap: break-word;
     }
 }

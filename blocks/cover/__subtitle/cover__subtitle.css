@@ -1,7 +1,7 @@
 .cover__subtitle {
     text-align: center;
     color: white;
-    width: 100vw;
+    max-width: 288px;
     height: 66px;
     margin: 0;
     font-weight: 400;
@@ -15,7 +15,7 @@
     .cover__subtitle {
         text-align: center;
         color: white;
-        width: 23rem;
+        max-width: 360px;
         margin: 0;
         font-weight: 400;
         font-size: 1rem;
@@ -28,7 +28,7 @@
     .cover__subtitle {
         text-align: center;
         color: white;
-        width: 23rem;
+        max-width: 360px;
         margin: 0;
         font-weight: 400;
         font-size: 1.2rem;
@@ -41,7 +41,7 @@
     .cover__subtitle {
         text-align: center;
         color: white;
-        width: 23rem;
+        max-width: 360px;
         margin: 0;
         font-weight: 400;
         font-size: 1.2rem;

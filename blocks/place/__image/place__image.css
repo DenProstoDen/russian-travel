@@ -2,7 +2,18 @@
     object-fit: cover;
     max-width: 320px;
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 605px) and (min-width: 321px) {
+    .place__image {
+        display: grid;
+        max-width: 200px;
+        object-fit: cover;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+@media screen and (min-width: 606px) and (max-width: 768px) {
     .place__image {
         display: grid;
         max-width: 340px;

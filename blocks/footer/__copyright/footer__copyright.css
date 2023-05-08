@@ -1,14 +1,20 @@
 .footer__copyright {
     color: white;
     padding-top: 48px;
+    padding-left: 1rem;
 }
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 605px) and (min-width: 321px) {
     .footer__copyright {
         color: white;
-        padding-left: 1rem;
+        padding-top: 48px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 606px) {
+    .footer__copyright {
+        color: white;
         font-size: 1.2rem;
         line-height: 0.8rem;
-        padding-top: 0;
+        padding: 0;
     }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
@@ -16,14 +22,14 @@
         color: white;
         font-size: 1.3rem;
         line-height: 0.8rem;
-        padding-top: 0;
+        padding: 0;
     }
 }
 @media screen and (max-width: 1280px) and (min-width: 1025px) {
     .footer__copyright {
         color: white;
         font-size: 1.3rem;
-        padding-top: 0;
+        padding: 0;
         line-height: 0.8rem;
     }
 }
