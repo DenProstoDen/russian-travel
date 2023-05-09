@@ -17,6 +17,7 @@
     .place__paragraph {
         display: grid;
         max-width: 352px;
+        font-size: 15.9px;
         margin: 0;
         color: white;
         grid-row-start: 2;
@@ -24,7 +25,7 @@
         grid-column-start: 2;
         grid-column-end: 2;
         inline-size: auto;
-        grid-gap: 1rem;
+        grid-gap: 25px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {

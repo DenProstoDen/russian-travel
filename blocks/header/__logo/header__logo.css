@@ -16,7 +16,9 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .header__logo {
         position: absolute;
-        width: 11rem;
+        max-width: 11rem;
+        left: 24px;
+        top: 28px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {

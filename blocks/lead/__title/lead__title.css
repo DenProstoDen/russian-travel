@@ -32,8 +32,8 @@
     .lead__title {  
         max-width: 720px;
         height: auto;
-        line-height: 1.2;
-        font-size: 3rem;
+        line-height: 100px;
+        font-size: 96px;
         margin: 0;
         font-weight: 900;
         text-align: center;

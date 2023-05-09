@@ -5,13 +5,16 @@
     margin-left: 16px;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
-    .website {
+    .place__website {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
         max-width: 352px;
         grid-row-start: 1;
         grid-row-end: 1;
         grid-column-start: 2;
         grid-column-end: 2;
-        height: max-content;
+        margin: 0;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {

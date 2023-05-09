@@ -6,8 +6,8 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .photo-grid__item {
         margin: 0;
-        max-width: 288px;
-        height: 100%;
+        max-width: 352px;
+        width: 100%;
         object-fit: cover;
     }
 }

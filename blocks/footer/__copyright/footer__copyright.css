@@ -14,8 +14,8 @@
 @media screen and (max-width: 768px) and (min-width: 606px) {
     .footer__copyright {
         color: white;
-        font-size: 1.2rem;
-        line-height: 0.8rem;
+        font-size: 14px;
+        line-height: 16px;
         padding: 0;
     }
 }

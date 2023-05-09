@@ -14,7 +14,7 @@
         display: flex;
         flex-direction: column;
         margin: 0;
-        padding-top: 92px;
+        padding-top: 88px;
         justify-content: space-between;
         padding-left: 0;
     }
@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: row;
         margin: auto;
-        padding-top: 4.5rem;
+        padding-top: 92px;
         justify-content: space-between;
     }
 }
