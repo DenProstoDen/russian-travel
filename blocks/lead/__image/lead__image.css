@@ -16,18 +16,19 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead__image {
-        max-width: 58rem;
+        max-width: 928px;
         height: 100%;
         object-fit: cover;
-        padding-top: 40px;
+        padding-top: 56px;
         margin: 0 auto;
     }
 }
 @media screen and (min-width: 1025px) {
     .lead__image {
-        max-width: 61.5rem;
+        max-width: 984px;
         height: 100%;
-        padding-top: 40px;
+        object-fit: cover;
+        padding-top: 64px;
         margin: 0 auto;
     }
 }

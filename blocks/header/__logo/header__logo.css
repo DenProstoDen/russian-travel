@@ -1,9 +1,9 @@
-.header__logo {
-    position: absolute;
-    width: 14rem;
-    top: 1.5rem;
-    left: 3rem;
-}
+    .header__logo {
+        position: absolute;
+        max-width: 176px;
+        left: 25px;
+        top: 30px;
+    }
 @media screen and (max-width: 320px) {
         .header__logo {
         position: absolute;
@@ -24,6 +24,8 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .header__logo {
         position: absolute;
-        width: 14rem;
+        max-width: 11rem;
+        left: 0;
+        top: 28px;
     }
 }

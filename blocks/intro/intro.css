@@ -14,16 +14,16 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .intro {
         max-width: 690px;
-        padding-top: 64px;
-        padding-left: 3rem;
+        padding-top: 92px;
+        padding-left: 0;
         inline-size: auto;
     }
 }
 @media screen and (min-width: 1025px) {
     .intro {
         max-width: 690px;
-        padding-top: 64px;
-        padding-left: 10rem;
+        padding-top: 92px;
+        padding-left: 100px;
         inline-size: auto;
     }
 }

@@ -34,12 +34,14 @@
         max-width: 456px;
         margin: 0;
         color: white;
+        font-size: 18px;
+        line-height: 29.34px;
         grid-row-start: 2;
         grid-row-end: 2;
         grid-column-start: 2;
         grid-column-end: 2;
         inline-size: auto;
-        grid-gap: 1rem;
+        grid-gap: 27px;
     }
 }
 @media screen and (min-width: 1025px) {
@@ -48,11 +50,13 @@
         max-width: 484px;
         margin: 0;
         color: white;
+        font-size: 18px;
+        line-height: 29.34px;
         grid-row-start: 2;
         grid-row-end: 2;
         grid-column-start: 2;
         grid-column-end: 2;
         inline-size: auto;
-        grid-gap: 1.5rem;
+        grid-gap: 27px;
     }
 }

@@ -24,9 +24,11 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead__subtitle {
         max-width: 640px;
-        line-height: 1;
-        font-size: 1.5rem;
-        padding-top: 16px;
+        max-height: 72px;
+        line-height: 36px;
+        font-size: 30px;
+        padding-top: 38px;
+        font-size: 900;
         text-align: center;
         color: white;
         margin: auto auto;
@@ -35,9 +37,11 @@
 @media screen and (min-width: 1025px) {
     .lead__subtitle {
         max-width: 640px;
-        line-height: 1;
-        font-size: 1.5rem;
-        padding-top: 16px;
+        max-height: 72px;
+        line-height: 36px;
+        font-size: 30px;
+        padding-top: 38px;
+        font-size: 900;
         text-align: center;
         color: white;
         margin: auto auto;

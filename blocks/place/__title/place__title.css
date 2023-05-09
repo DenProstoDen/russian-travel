@@ -29,8 +29,9 @@
     .place__title {
         max-width: 440px;
         display: grid;
-        font-size: 4rem;
-        line-height: 4.1rem;
+        font-size: 72px;
+        margin-left: 0;
+        line-height: 76px;
         font-weight: 900;
         color: white;
         grid-row-start: 1;
@@ -43,8 +44,9 @@
     .place__title {
         max-width: 460px;
         display: grid;
-        font-size: 4rem;
-        line-height: 4.1rem;
+        font-size: 72px;
+        margin-left: 0;
+        line-height: 76px;
         font-weight: 900;
         color: white;
         grid-row-start: 1;

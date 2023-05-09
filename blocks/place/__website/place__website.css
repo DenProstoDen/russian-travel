@@ -19,19 +19,27 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .place__website {
-        max-width: 456px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        max-width: 352px;
         grid-row-start: 1;
         grid-row-end: 1;
         grid-column-start: 2;
         grid-column-end: 2;
+        margin: 0;
     }
 }
 @media screen and (min-width: 1025px) {
     .place__website {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
         max-width: 456px;
         grid-row-start: 1;
         grid-row-end: 1;
         grid-column-start: 2;
         grid-column-end: 2;
+        margin: 0;
     }
 }
