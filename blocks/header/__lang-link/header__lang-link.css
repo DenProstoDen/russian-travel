@@ -9,14 +9,14 @@
 }
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        max-width: 1.8rem;
-        height: 1.6rem;
+        max-width: 22px;
+        height: 20px;
         margin: 0;
         display: flex;
-        padding-top: 28px;
+        padding-top: 30px;
         text-decoration: none;
         color: white;
-        padding-right: 10px;
+        padding-right: 16px;
     }
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {

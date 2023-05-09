@@ -5,6 +5,7 @@
     font-weight: 900;
     color: white;
     margin: 0;
+    margin-left: 16px;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .place__title {
@@ -25,7 +26,6 @@
     .place__title {
         max-width: 440px;
         display: grid;
-        width: auto;
         font-size: 4rem;
         line-height: 4.1rem;
         font-weight: 900;
@@ -41,7 +41,6 @@
     .place__title {
         max-width: 460px;
         display: grid;
-        width: auto;
         font-size: 4rem;
         line-height: 4.1rem;
         font-weight: 900;

@@ -1,10 +1,14 @@
 .place__paragraph {
-    max-width: 288px;
-    height: min-content;
+    max-width: 285px;
     margin: 0;
     color: white;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 16px;
+    line-height: 163%;
+    margin: auto;
+    display: grid;
+    grid-gap: 25px;
+    font-weight: 400;
+    font-style: normal;
 }
 .place__paragraph > p {
     margin: 0;
