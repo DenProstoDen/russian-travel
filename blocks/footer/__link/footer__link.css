@@ -3,7 +3,6 @@
     font-size: 24px;
     line-height: 24px;
     color: white;
-    width: max-content;
 }
 .footer__link:hover {
     opacity: 0.8;
@@ -14,7 +13,6 @@
         font-size: 24px;
         line-height: 24px;
         color: white;
-        width: max-content;
     }
 }
 @media screen and (max-width: 768px) and (min-width: 606px) {
@@ -23,7 +21,6 @@
         font-size: 1.2rem;
         line-height: 0.8rem;
         color: white;
-        width: max-content;
     }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
@@ -32,15 +29,13 @@
         font-size: 1.2rem;
         line-height: 0.8rem;
         color: white;
-        width: max-content;
     }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1025px) {
     .footer__link {
         text-decoration: none;
         font-size: 1.2rem;
         line-height: 0.8rem;
         color: white;
-        width: max-content;
     }
 }
