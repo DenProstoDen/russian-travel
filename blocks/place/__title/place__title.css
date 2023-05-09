@@ -21,7 +21,7 @@
         grid-column-start: 1;
         grid-column-end: 1;
     }
-    .title__letter_accent {
+    .place__letter_accent {
         letter-spacing: 1px;
     }
 }
