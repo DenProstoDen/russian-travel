@@ -8,6 +8,7 @@
     grid-gap: 25px;
     font-weight: 400;
     font-style: normal;
+    margin: auto;
 }
 .place__paragraph > p {
     margin: 0;
@@ -31,6 +32,7 @@
     .place__paragraph {
         display: grid;
         max-width: 456px;
+        height: min-content;
         margin: 0;
         color: white;
         font-size: 18px;
@@ -40,13 +42,14 @@
         grid-column-start: 2;
         grid-column-end: 2;
         inline-size: auto;
-        grid-gap: 27px;
+        grid-gap: 20px;
     }
 }
 @media screen and (min-width: 1025px) {
     .place__paragraph {
         display: grid;
         max-width: 484px;
+        height: min-content;
         margin: 0;
         color: white;
         font-size: 18px;

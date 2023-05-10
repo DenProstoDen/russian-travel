@@ -20,6 +20,8 @@
     .cover {
         max-width: 1280px;
         min-height: 740px;
-        margin: 5rem auto;
+        margin-top: 98px;
+        margin-bottom: 90px;
+        margin-bottom: 61px;
     }
 }

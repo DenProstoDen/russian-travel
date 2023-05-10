@@ -1,31 +1,27 @@
 .header__lang-link {
     max-width: 30px;
-    height: 28px;
     font-size: 24px;
     line-height: 28px;
     margin: 0;
-    display: flex;
     text-decoration: none;
     color: white;
-    padding-right: 15px;
+    padding-left: 18px;
     padding-top: 45px;
 }
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        max-width: 22px;
-        height: 20px;
+        max-width: 20px;
         margin: 0;
         display: flex;
         padding-top: 30px;
         text-decoration: none;
         color: white;
-        padding-right: 16px;
+        padding-right: 19px;
     }
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
 .header__lang-link {
         max-width: 30px;
-        height: 28px;
         font-size: 24px;
         line-height: 28px;
         margin: 0;
@@ -39,7 +35,6 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 .header__lang-link {
         max-width: 30px;
-        height: 28px;
         font-size: 24px;
         line-height: 28px;
         margin: 0;
@@ -47,6 +42,5 @@
         padding-top: 28px;
         text-decoration: none;
         color: white;
-        padding-right: 15px;
     }
 }

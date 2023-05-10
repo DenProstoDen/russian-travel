@@ -1,8 +1,8 @@
     .header__logo {
         position: absolute;
-        max-width: 176px;
-        left: 25px;
-        top: 30px;
+        max-width: 11rem;
+        left: 4px;
+        top: 36px;
     }
 @media screen and (max-width: 320px) {
         .header__logo {
@@ -17,15 +17,15 @@
     .header__logo {
         position: absolute;
         max-width: 11rem;
-        left: 24px;
-        top: 28px;
+        left: 30px;
+        top: 35px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .header__logo {
         position: absolute;
         max-width: 11rem;
-        left: 0;
-        top: 28px;
+        left: 10px;
+        top: 36px;
     }
 }

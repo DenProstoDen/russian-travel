@@ -18,6 +18,7 @@
         flex-direction: row;
         justify-content: end;
         max-width: 768px;
+        padding-top: 20px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -26,5 +27,6 @@
         flex-direction: row;
         justify-content: end;
         max-width: 1024px;
+        padding-top: 20px;
     }
 }
