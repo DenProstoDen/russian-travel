@@ -1,29 +1,29 @@
-.intro { 
-    max-width: 288px; 
-    padding-top: 64px; 
-    padding-left: 16px; 
-} 
-@media screen and (min-width: 321px) and (max-width: 768px) { 
-    .intro { 
-       max-width: 720px; 
-        padding-top: 88px; 
-        padding-left: 24px; 
-        inline-size: auto; 
-    } 
-} 
-@media screen and (min-width: 769px) and (max-width: 1024px) { 
-    .intro { 
-        max-width: 690px; 
-        padding-top: 92px; 
-        padding-left: 0; 
-        inline-size: auto; 
-    } 
-} 
-@media screen and (min-width: 1025px) { 
-    .intro { 
-        max-width: 690px; 
-        padding-top: 92px; 
-        padding-left: 100px; 
-        inline-size: auto; 
-    } 
+.intro {
+    max-width: 288px;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .intro {
+       max-width: 720px;
+        padding-top: 88px;
+        padding-left: 24px;
+        inline-size: auto;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .intro {
+        max-width: 690px;
+        padding-top: 92px;
+        padding-left: 0;
+        inline-size: auto;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .intro {
+        max-width: 690px;
+        padding-top: 92px;
+        padding-left: 100px;
+        inline-size: auto;
+    }
 }
