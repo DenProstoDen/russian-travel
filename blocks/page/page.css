@@ -2,7 +2,6 @@
     margin: 0;
     background: hsl(216, 6%, 17%);
     overflow: hidden;
-    overflow-x: hidden;
     max-width: 1280px;
     position: relative;
     font-family: 'Inter';
