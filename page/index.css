@@ -2,23 +2,49 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/header/index.css);
+@import url(/fonts/fonts.css);
 
-@import url(../blocks/body/body.css);
-
-@import url(../blocks/cover/index.css);
-
-@import url(../blocks/footer/index.css);
-
-@import url(../blocks/intro/index.css);
-
-@import url(../blocks/lead/index.css);
-
-@import url(../blocks/photo-grid/index.css);
-
-@import url(../blocks/place/index.css);
-
+/*Блок header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+/*Блок cover*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__link/cover__link.css);
+/*Блок footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+/*Блок intro*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/intro-title/intro-title.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
+/*Блок lead*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+/*Блок photo-grid*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+/*Блок places*/
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__title_accent/place__title_accent.css);
+@import url(../blocks/place/__letter-spacing/place__letter-spacing.css);
 @import url(../blocks/places/places.css);
-/**{
+/* *{
     border: 1px solid red;
-}*/
+}    */

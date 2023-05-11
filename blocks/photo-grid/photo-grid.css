@@ -19,7 +19,7 @@
         padding-right: 24px;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
     .photo-grid {
         display: grid;
         max-width: 928px;
@@ -33,7 +33,7 @@
         padding-right: 0;
     }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
     .photo-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
