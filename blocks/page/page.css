@@ -1,8 +1,8 @@
 .page {
     margin: 0;
     background: hsl(216, 6%, 17%);
-    overflow: hidden;
     max-width: 1280px;
     position: relative;
     font-family: 'Inter';
+    padding: 0;
 }
