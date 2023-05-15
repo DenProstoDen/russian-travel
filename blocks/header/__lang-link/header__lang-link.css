@@ -11,21 +11,21 @@
 .header__lang-link:hover {
   opacity: 0.8;
 }
-@media (max-width: 620px) {
+@media screen and (max-width: 620px) {
   .header__lang-link {
     font-size: 22px;
     line-height: 111%;
     padding-top: 16px;
   }
 }
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 20px;
     line-height: 111%;
     padding-top: 14px;
   }
 }
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 111%;

@@ -51,6 +51,6 @@
 @import url(../blocks/letter-spacing/letter-spacing.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/text-style/text-style.css);
-/* *{
+*{
     border: 1px solid red;
-} */
+} 

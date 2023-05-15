@@ -4,31 +4,31 @@
     max-width: 1184px;
     padding: 28px 48px 0 48px;
   } 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .header {
     max-width: 928px;
     padding: 28px 48px 0 48px;
   }
 }
-  @media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header {
     max-width: 720px;
     padding: 28px 24px 0 24px;
   }
 }
-@media (max-width: 620px) {
+@media screen and (min-width: 411px) and (max-width: 630px) {
   .header {
-    max-width: 576px;
+    max-width: 582px;
     padding: 24px 22px 0 22px;
   }
 } 
-@media (max-width: 425px) {
+@media screen and (min-width: 321px) and (max-width: 410px) {
   .header {
-    max-width: 432px;
+    max-width: 380px;
     padding: 20px 19px 0 19px;
   }
 } 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
     padding: 16px 16px 0 16px;
