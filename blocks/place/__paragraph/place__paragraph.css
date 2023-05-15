@@ -26,6 +26,9 @@
         inline-size: auto;
         grid-gap: 25px;
     }
+    .place__paragraph > p {
+        margin: 0;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .place__paragraph {
@@ -43,6 +46,9 @@
         inline-size: auto;
         grid-gap: 20px;
     }
+    .place__paragraph > p {
+        margin: 0;
+    }
 }
 @media screen and (min-width: 1025px) {
     .place__paragraph {
@@ -59,5 +65,8 @@
         grid-column-end: 2;
         inline-size: auto;
         grid-gap: 27px;
+    }
+    .place__paragraph > p {
+        margin: 0;
     }
 }

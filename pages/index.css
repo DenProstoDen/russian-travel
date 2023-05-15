@@ -45,8 +45,9 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
-@import url(../blocks/place/__title_accent/place__title_accent.css);
-@import url(../blocks/place/__letter-spacing/place__letter-spacing.css);
+@import url(../blocks/letter-spacing/letter-spacing.css);
+@import url(../blocks/title-accent/title-accent.css);
+@import url(../blocks/letter-spacing/letter-spacing.css);
 @import url(../blocks/places/places.css);
 /* *{
     border: 1px solid red;
