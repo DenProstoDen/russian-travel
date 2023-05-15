@@ -1,4 +1,4 @@
-.intro-title {
+.intro__title {
     max-width: 288px;
     font-style: normal;
     font-weight: 900;
@@ -8,7 +8,7 @@
     color: white;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
-    .intro-title {
+    .intro__title {
         max-width: 720px;
         font-style: normal;
         font-weight: 900;
@@ -19,7 +19,7 @@
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .intro-title {
+    .intro__title {
         max-width: 690px;
         font-style: normal;
         font-weight: 900;
@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 1025px) {
-    .intro-title {
+    .intro__title {
         max-width: 690px;
         font-style: normal;
         font-weight: 900;
