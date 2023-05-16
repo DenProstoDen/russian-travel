@@ -9,7 +9,20 @@
     font-style: normal;
     margin: auto;
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 500px) {
+    .place__paragraph {
+        max-width: 285px;
+        color: white;
+        font-size: 16px;
+        line-height: 163%;
+        display: grid;
+        grid-gap: 25px;
+        font-weight: 400;
+        font-style: normal;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .place__paragraph {
         display: grid;
         max-width: 352px;
