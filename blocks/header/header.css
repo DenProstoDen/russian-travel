@@ -1,33 +1,33 @@
-.header { 
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-between; 
-  max-width: 1280px; 
-} 
-@media screen and (max-width: 320px) { 
-  .header { 
-      display: flex; 
-      flex-direction: row; 
-      justify-content: space-between; 
-      max-width: 320px;
-      padding: 16px;
-  } 
-} 
-@media screen and (min-width: 321px) and (max-width: 768px) { 
-  .header { 
-      display: flex; 
-      flex-direction: row; 
-      justify-content: space-between; 
-      max-width: 768px; 
-      padding: 30px 22px 16px 22px;
-  } 
-} 
-@media screen and (min-width: 769px) and (max-width: 1024px) { 
-  .header { 
-      display: flex; 
-      flex-direction: row; 
-      justify-content: space-between; 
-      max-width: 1024px; 
-      padding-top: 27px; 
-  } 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+@media screen and (max-width: 320px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 320px;
+    padding: 16px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 768px;
+    padding: 30px 22px 16px 22px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1024px;
+    padding-top: 27px;
+  }
 }
