@@ -1,36 +1,33 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1184px;
-    padding: 28px 48px 0 48px;
+.header { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  max-width: 1280px; 
+} 
+@media screen and (max-width: 320px) { 
+  .header { 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between; 
+      max-width: 320px;
+      padding: 16px;
   } 
-@media screen and (max-width: 1024px) {
-  .header {
-    max-width: 928px;
-    padding: 28px 48px 0 48px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .header {
-    max-width: 720px;
-    padding: 28px 24px 0 24px;
-  }
-}
-@media screen and (min-width: 411px) and (max-width: 630px) {
-  .header {
-    max-width: 582px;
-    padding: 24px 22px 0 22px;
-  }
 } 
-@media screen and (min-width: 321px) and (max-width: 410px) {
-  .header {
-    max-width: 380px;
-    padding: 20px 19px 0 19px;
-  }
+@media screen and (min-width: 321px) and (max-width: 768px) { 
+  .header { 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between; 
+      max-width: 768px; 
+      padding: 30px 22px 16px 22px;
+  } 
 } 
-@media screen and (max-width: 320px) {
-  .header {
-    max-width: 288px;
-    padding: 16px 16px 0 16px;
-  }
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+  .header { 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between; 
+      max-width: 1024px; 
+      padding-top: 27px; 
+  } 
 }
