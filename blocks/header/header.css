@@ -24,7 +24,7 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .header {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-width: 1024px;
