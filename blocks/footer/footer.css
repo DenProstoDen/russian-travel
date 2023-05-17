@@ -38,7 +38,7 @@
         flex-direction: row;
         padding-top: 92px;
         justify-content: space-between;
-        margin-bottom: 30px;
+        margin-bottom: 24px;
     }
 }
 @media screen and (min-width: 1025px) {
@@ -49,6 +49,6 @@
         flex-direction: row;
         padding-top: 30px;
         justify-content: space-between;
-        margin-bottom: 30px;
+        margin-bottom: 22px;
     }
 }

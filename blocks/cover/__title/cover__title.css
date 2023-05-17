@@ -36,8 +36,8 @@
         max-width: 35rem;
         margin: 0;
         font-weight: 900;
-        font-size: 4.5rem;
-        line-height: 4rem;
+        font-size: 72px;
+        line-height: 76px;
     }
 }
 @media screen and (min-width: 1025px) {
@@ -49,5 +49,6 @@
         font-weight: 900;
         font-size: 72px;
         line-height: 76px;
+        padding-bottom: 10px;
     }
 }
