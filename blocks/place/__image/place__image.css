@@ -8,7 +8,18 @@
         max-width: 320px;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 653px) {
+    .place__image {
+        display: grid;
+        max-width: 265px;
+        object-fit: cover;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+@media screen and (min-width: 654px) and (max-width: 768px) {
     .place__image {
         display: grid;
         max-width: 340px;
