@@ -1,0 +1,9 @@
+.cover__hover {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

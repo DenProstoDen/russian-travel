@@ -25,15 +25,6 @@
 .cover__link:hover::before {
     opacity: 0.2;
 }
-.inner {
-    position: relative;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
 @media screen and (max-width: 500px) and (min-width: 321px) {
     .cover__link {
         text-decoration: none;
