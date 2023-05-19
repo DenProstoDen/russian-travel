@@ -55,7 +55,6 @@
         /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../../../images/__background.png); */
         max-width: 1024px;
         min-height: 640px;
-        background-position: center;
         transition: opacity 0.4s ease-in;
         display: flex;
         flex-direction: column;
