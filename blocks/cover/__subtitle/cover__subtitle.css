@@ -11,53 +11,41 @@
 }
 @media screen and (max-width: 500px) and (min-width: 321px) {
     .cover__subtitle {
-        color: white;
         max-width: 288px;
         margin: 0;
         font-weight: 400;
         font-size: 14px;
         line-height: 16px;
         padding-top: 16px;
-        text-decoration: none;
-        text-align: center;
     }
 }
 @media screen and (max-width: 768px) and (min-width: 501px) {
     .cover__subtitle {
-        text-align: center;
-        color: white;
         max-width: 360px;
         margin: 0;
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
         padding-top: 32px;
-        text-decoration: none;
     }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .cover__subtitle {
-        text-align: center;
-        color: white;
         max-width: 360px;
         margin: 0;
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
         padding-top: 30px;
-        text-decoration: none;
     }
 }
 @media screen and (min-width: 1025px) {
     .cover__subtitle {
-        text-align: center;
-        color: white;
         max-width: 360px;
         margin: 0;
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
         padding-top: 20px;
-        text-decoration: none;
     }
 }

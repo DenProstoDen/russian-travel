@@ -51,7 +51,7 @@
 @import url(../blocks/title-accent/title-accent.css);
 @import url(../blocks/letter-spacing/letter-spacing.css);
 @import url(../blocks/places/places.css);
-@import url(../blocks/text-style/text-style.css);
+@import url(../blocks/place/__text-style/place__text-style.css);
 /* *{
     border: 1px solid red;
 }  */

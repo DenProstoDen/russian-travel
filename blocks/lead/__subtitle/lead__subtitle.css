@@ -14,8 +14,6 @@
         line-height: 25px;
         font-size: 20px;
         padding-top: 16px;
-        text-align: center;
-        color: white;
     }
 }
 @media screen and (min-width: 681px) and (max-width: 768px) {
@@ -25,8 +23,6 @@
         font-size: 30px;
         padding-top: 30px;
         font-weight: 400;
-        text-align: center;
-        color: white;
         margin: auto auto;
     }
 }
@@ -37,8 +33,6 @@
         font-size: 30px;
         padding-top: 30px;
         font-weight: 400;
-        text-align: center;
-        color: white;
         margin: auto auto;
     }
 }
@@ -49,8 +43,6 @@
         font-size: 30px;
         padding-top: 32px;
         font-weight: 400;
-        text-align: center;
-        color: white;
         margin: auto auto;
     }
 }

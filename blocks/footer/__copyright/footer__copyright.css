@@ -8,13 +8,11 @@
 }
 @media screen and (max-width: 605px) and (min-width: 321px) {
     .footer__copyright {
-        color: white;
         padding-top: 48px;
     }
 }
 @media screen and (max-width: 768px) and (min-width: 606px) {
     .footer__copyright {
-        color: white;
         font-size: 14px;
         line-height: 16px;
         padding: 0;
@@ -22,7 +20,6 @@
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .footer__copyright {
-        color: white;
         font-size: 14px;
         line-height: 16px;
         padding: 0;
@@ -30,7 +27,6 @@
 }
 @media screen and (min-width: 1025px) {
     .footer__copyright {
-        color: white;
         font-size: 14px;
         line-height: 16px;
         padding: 0;

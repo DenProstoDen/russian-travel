@@ -6,35 +6,23 @@
 }
 @media screen and (min-width: 321px) and (max-width: 680px) {
     .lead {
-        display: flex;
         padding-top: 48px;
-        flex-direction: column;
-        align-items: center;
     }
 }
 @media screen and (min-width: 530px) and (max-width: 768px) {
     .lead {
-        display: flex;
         padding-top: 32px;
-        flex-direction: column;
-        align-items: center;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead {
-        display: flex;
         padding-top: 48px;
-        flex-direction: column;
-        align-items: center;
         margin-left: 48px;
         margin-right: 48px;
     }
 }
 @media screen and (min-width: 1025px) {
     .lead {
-        display: flex;
         padding-top: 56px;
-        flex-direction: column;
-        align-items: center;
     }
 }

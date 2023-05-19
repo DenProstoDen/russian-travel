@@ -21,8 +21,6 @@
         font-size: 44px;
         margin: 0;
         font-weight: 900;
-        text-align: center;
-        color: white;
     }
 }
 @media screen and (min-width: 441px) and (max-width: 540px) {
@@ -32,8 +30,6 @@
         font-size: 55px;
         margin: 0;
         font-weight: 900;
-        text-align: center;
-        color: white;
     }
 }
 @media screen and (min-width: 541px) and (max-width: 672px) {
@@ -43,8 +39,6 @@
         font-size: 55px;
         margin: 0;
         font-weight: 900;
-        text-align: center;
-        color: white;
     }
 }
 @media screen and (min-width: 673px) and (max-width: 768px) {
@@ -54,8 +48,6 @@
         font-size: 96px;
         margin: 0;
         font-weight: 900;
-        text-align: center;
-        color: white;
         margin-left: auto;
         margin-right: auto;
     }
@@ -67,8 +59,6 @@
         font-size: 96px;
         margin: 0;
         font-weight: 900;
-        text-align: center;
-        color: white;
         margin-left: auto;
         margin-right: auto;
     }
@@ -81,8 +71,6 @@
         font-size: 96px;
         margin: 0;
         font-weight: 900;
-        text-align: center;
-        color: white;
         margin-left: auto;
         margin-right: auto;
     }
