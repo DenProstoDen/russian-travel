@@ -18,6 +18,8 @@
         padding: 0;
         padding-top: 12px;
         margin: 0;
+        margin-left: 48px;
+        margin-right: 48px;
     }
 }
 @media screen and (min-width: 1025px) {

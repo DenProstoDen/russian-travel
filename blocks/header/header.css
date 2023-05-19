@@ -41,8 +41,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1024px;
+    align-items: center;
+    align-self: center;
+    max-width: 928px;
     padding-top: 27px;
-    margin: 0;
+    margin: auto;
   }
 }

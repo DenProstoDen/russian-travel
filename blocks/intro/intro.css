@@ -17,6 +17,8 @@
         padding-top: 92px;
         padding-left: 0;
         inline-size: auto;
+        margin-left: 48px;
+        margin-right: 48px;
     }
 }
 @media screen and (min-width: 1025px) {
