@@ -12,7 +12,17 @@
         margin: 0;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 880px) {
+    .places {
+        max-width: 928px;
+        padding: 0;
+        padding-top: 12px;
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width: 881px) and (max-width: 1024px) {
     .places {
         max-width: 928px;
         padding: 0;

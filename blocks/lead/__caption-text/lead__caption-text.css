@@ -18,3 +18,8 @@
         padding-left: 98px;
     }
 }
+@media screen and (min-width: 1280px) {
+    .lead__caption-text {
+        padding-left: 0;
+    }
+}

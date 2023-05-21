@@ -11,7 +11,17 @@
         inline-size: auto;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 880px) {
+    .intro {
+        max-width: 690px;
+        padding-top: 92px;
+        padding-left: 0;
+        inline-size: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width: 881px) and (max-width: 1024px) {
     .intro {
         max-width: 690px;
         padding-top: 92px;
