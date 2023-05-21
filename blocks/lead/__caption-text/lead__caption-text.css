@@ -1,6 +1,7 @@
 .lead__caption-text {
     margin: 0;
     padding-left: 17px;
+    max-width: 160px;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .lead__caption-text {

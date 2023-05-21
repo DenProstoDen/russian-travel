@@ -1,7 +1,6 @@
 .cover__link {
     text-decoration: none;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.1   ), rgba(0, 0, 0, 0.8) ), url(../../../images/__background.png);
-    /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../../../images/__background.png); */
+    background-image: url(../../../images/__background.png);
     max-width: 320px;
     min-height: 200px;
     background-position: center;
@@ -19,17 +18,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,.3);
+    background-color: #2A2C2F;
     z-index: 2;
+    opacity: 0.3;
 }
-.cover__link:hover::before {
-    opacity: 0.2;
+.cover__link:hover::before{
+    background-color: #2A2C2F;
+    opacity: 0.8;
 }
 @media screen and (max-width: 500px) and (min-width: 321px) {
     .cover__link {
         text-decoration: none;
-        background-image: linear-gradient( rgba(255, 255, 255, 0.1   ), rgba(0, 0, 0, 0.8) ), url(../../../images/__background.png);
-        /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../../../images/__background.png); */
+        background-image: url(../../../images/__background.png);   
         max-width: 320px;
         min-height: 200px;
     }
@@ -37,8 +37,7 @@
 @media screen and (max-width: 768px) and (min-width: 501px) {
     .cover__link {
         text-decoration: none;
-        background-image: linear-gradient( rgba(255, 255, 255, 0.1   ), rgba(0, 0, 0, 0.8) ), url(../../../images/__background.png);
-        /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../../../images/__background.png); */
+        background-image: url(../../../images/__background.png); 
         max-width: 768px;
         min-height: 480px;
     }   
@@ -47,8 +46,7 @@
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .cover__link {
         text-decoration: none;
-        background-image: linear-gradient( rgba(255, 255, 255, 0.1   ), rgba(0, 0, 0, 0.8) ), url(../../../images/__background.png);
-        /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../../../images/__background.png); */
+        background-image: url(../../../images/__background.png);
         max-width: 1024px;
         min-height: 640px;
         background-repeat: no-repeat;
@@ -59,8 +57,7 @@
 @media screen and (min-width: 1025px) {
     .cover__link {
         text-decoration: none;
-        background-image: linear-gradient( rgba(255, 255, 255, 0.1   ), rgba(0, 0, 0, 0.8) ), url(../../../images/__background.png);
-        /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)), url(../../../images/__background.png); */
+        background-image: url(../../../images/__background.png);
         max-width: 1184px;
         min-height: 740px;
         background-position: center;
