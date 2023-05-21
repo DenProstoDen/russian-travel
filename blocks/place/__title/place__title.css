@@ -31,7 +31,21 @@
         grid-column-end: 1;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .place__title {
+        max-width: 330px;
+        margin-left: 0;
+        display: grid;
+        font-size: 42px;
+        line-height: 46px;
+        font-weight: 900;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1024px) {
     .place__title {
         max-width: 440px;
         display: grid;

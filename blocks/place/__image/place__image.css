@@ -30,7 +30,18 @@
         grid-column-end: 1;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 960px){
+    .place__image {
+        display: grid;
+        max-width: 340px;
+        object-fit: cover;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1024px){
     .place__image {
         display: grid;
         max-width: 440px;

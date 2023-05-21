@@ -6,6 +6,7 @@
     padding-top: 16px;
     text-align: center;
     color: white;
+    font-weight: 400;
 }
 @media screen and (min-width: 321px) and (max-width: 680px) {
     .lead__subtitle {
@@ -22,7 +23,6 @@
         line-height: 36px;
         font-size: 30px;
         padding-top: 30px;
-        font-weight: 400;
         margin: auto auto;
     }
 }
@@ -32,7 +32,6 @@
         line-height: 36px;
         font-size: 30px;
         padding-top: 30px;
-        font-weight: 400;
         margin: auto auto;
     }
 }
@@ -42,7 +41,6 @@
         line-height: 36px;
         font-size: 30px;
         padding-top: 32px;
-        font-weight: 400;
         margin: auto auto;
     }
 }
