@@ -6,7 +6,20 @@
     margin-top: 64px;
     gap: 12px;
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 700px) {
+    .photo-grid {
+        display: grid;
+        max-width: 720px;
+        height: max-content;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        margin-top: 88px;
+        gap: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 768px) {
     .photo-grid {
         display: grid;
         max-width: 720px;
