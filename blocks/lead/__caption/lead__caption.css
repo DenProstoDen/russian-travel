@@ -7,7 +7,6 @@
     text-transform: uppercase;
     color: white;
     padding-top: 7.1px;
-    width: 100%;
 }
 @media screen and (max-width: 310px) {
     .lead__caption { 
@@ -16,28 +15,24 @@
 }
 @media screen and (min-width: 321px) and (max-width: 680px) {
     .lead__caption {
-        width: 100%;
         letter-spacing: 1.5px;
         padding-top: 6px;
     } 
 }
 @media screen and (min-width: 681px) and (max-width: 768px) {
     .lead__caption {
-        width: 100%;
         letter-spacing: 1.5px;
         padding-top: 6px;
     } 
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead__caption {
-        width: 100%;
         letter-spacing: 1.5px;
         padding-top: 8px;
     } 
 }
 @media screen and (min-width: 1025px) {
     .lead__caption {
-        width: 100%;
         letter-spacing: 1.5px;
         padding-top: 9px;
     } 
