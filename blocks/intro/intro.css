@@ -5,9 +5,10 @@
 }
 @media screen and (min-width: 321px) and (max-width: 500px) {
     .intro {
-       max-width: 500px;
+        max-width: 250px;
         padding-top: 88px;
-        padding-left: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
         inline-size: auto;
     }
 }
