@@ -8,7 +8,7 @@
         max-width: 320px;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 653px) {
+@media screen and (min-width: 500px) and (max-width: 700px) {
     .place__image {
         display: grid;
         max-width: 265px;
@@ -19,7 +19,7 @@
         grid-column-end: 1;
     }
 }
-@media screen and (min-width: 654px) and (max-width: 768px) {
+@media screen and (min-width: 701px) and (max-width: 768px) {
     .place__image {
         display: grid;
         max-width: 340px;
